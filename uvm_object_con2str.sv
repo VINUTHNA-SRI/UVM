@@ -20,4 +20,4 @@ class example extends uvm_object;
     $sformat(s,"c = %0h",c);
     return s;
   endfunction
-
+endclass
