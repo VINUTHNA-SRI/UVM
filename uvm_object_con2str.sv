@@ -16,8 +16,10 @@ class example extends uvm_object;
 
   function string convert2string();
     string s=" ";
-    $sformat(s,"b = %s",b);
-    $sformat(s,"c = %0h",c);
+    $sformat(s,"%s b = %s",s,b);
+    $sformat(s,"%s c = %0h",s,c);
     return s;
   endfunction
+
 endclass
+
