@@ -1,5 +1,5 @@
 import uvm_pkg::*;
-`include "uvm_object_conv2str.sv"
+`include "uvm_object_con2str.sv"
 `include "uvm_macros.svh"
 
 class test extends uvm_test;
